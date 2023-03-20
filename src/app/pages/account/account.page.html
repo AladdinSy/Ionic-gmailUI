@@ -1,0 +1,48 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar class="ion-text-center">
+    <ion-buttons slot="start">
+      <ion-button (click)="close()">
+        <ion-icon slot="icon-only" name="close" color="dark"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-img src="/assets/logo.png" [style.width]="'70px'"></ion-img>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-item lines="none">
+    <ion-avatar slot="start">
+      <img src="/assets/avatar.jpg" />
+    </ion-avatar>
+    <ion-label color="dark"
+      >Aladdin
+      <p>Aladdin994@gmail.com</p></ion-label
+    >
+  </ion-item>
+  <ion-button
+    color="dark"
+    expand="full"
+    fill="outline"
+    shape="round"
+    class="ion-padding"
+  >
+    Manage your Google Account
+  </ion-button>
+  <ion-item>
+    <ion-icon name="person-add-outline" slot="start"></ion-icon>
+    <ion-label>Add another account</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-icon name="person-outline" slot="start"></ion-icon>
+    <ion-label>Manage accounts on this device</ion-label>
+  </ion-item>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-row>
+      <ion-col size="6" class="ion-text-right"> Privacy Policy</ion-col>
+      <ion-col size="6" class="ion-text-left">Terms of Service</ion-col>
+    </ion-row>
+  </ion-toolbar>
+</ion-footer>
